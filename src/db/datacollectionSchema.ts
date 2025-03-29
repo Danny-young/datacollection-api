@@ -2,7 +2,7 @@ import { pgTable, uuid, numeric,varchar, text, integer, timestamp, foreignKey, j
 import { agentsTable } from "./agentSchema.js";
 import { geolocationTable } from "./geolocations";
 
-
+//this is a test plan
 
 export const collectDataTable = pgTable("collections", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
