@@ -1,0 +1,1 @@
+ALTER TABLE "agents" DROP CONSTRAINT "agents_username_unique";
